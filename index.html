@@ -1,106 +1,202 @@
 <!DOCTYPE html>
 <html lang="fi">
 <head>
-<meta charset="UFO-8"/>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/css/css_howto.asp">
+<link rel="stylesheet" href="https://www.w3schools.com/css/css_selectors.asp">
 <link rel="stylesheet" href="https://pixabay.com/fi/illustrations/html5-kuvake-grafiikka-2d-kilpi-1841458/">
+<script type="text/php" src="lomakkeenkasittely.php"></script>
 <title>Ensimmäinen Nettisivuni</title>
 <style>
-p.double {border-style: double;}
-    </style>
-    </head>
-    <body>
-        <h3><b>Ensimmäinen Nettisivuni</b></h3>
-        <h5><b>Mikä tämä on?</b></h5>
 
-        <h6>Yksinkertainen sivu, joka on tehty HTML:n avulla. <i> Sanoin yksinkertainen sivu, joka on tehty HTML: n avulla.</i> Yksinkertainen sivu, joka on tehty <b>HTML:n</b> avulla. 
-            Yksinkertainen sivu, joka on tehty HTML:n avulla. Yksinkertainen sivu, joka on tehty HTML:n avulla</h6>
-            <h6>. Yksinkertainen sivu, joka on tehty HTML:n avulla. <u>Yksinkertainen</u> sivu, joka on tehty HTML:n avulla. Yksinkertainen sivu, joka on tehty HTML:n avulla.</h6>
+body {
+font-family: arial, helvetica, sans-serif;
+font-size: 14px;
+color: black;
+background-color: #ffc;
+margin: 20px;
+padding: 0;
+}
 
-            <div  class="w3-border-top w3-border-bottom w3-light-white">
-                <p>Yksinkertainen sivu, joka on tehty HTML:n avulla.</p>
+p{
+line-height: 21px;
+margin-left: 5px;
+text-decoration: none;
+}
+
+
+
+h1 {color: #ffc;
+background-color: #900;
+font-size: 2em;
+margin: 0;
+margin-bottom: 7px;
+padding: 4px;
+font-style: italic;
+text-align: center;
+letter-spacing: 0.5em;
+border-bottom-style: solid;
+border-bottom-width: 0.5em;
+border-bottom-color: #c00;
+}
+
+h2{
+color: white;
+background-color: #090;
+font-size: 1.5em;
+margin: 0;
+padding: 2px;
+padding-left: 14px;
+
+}
+h3{
+color: #999;
+font-size: 1.25em;
+}
+
+img{
+border-style: dashed;
+border-width: 2px;
+border-color: #f11;
+}
+form{
+text-align: left;
+border-style: dashed;
+border-width: 2px;
+border-color: #bbb;
+color: #000;
+background-color: #ccc;
+}
+a {
+text-decoration: none;
+}
+strong {
+font-style: italic;
+text-transform: uppercase;
+}
+em{
+color: #abc;
+font-style: italic;
+}
+li{
+color: rgb(156, 61, 48);
+font-style: italic;
+
+}
+p.minunnimi{
+  text-align: center;
+}
+table{background-color: #ccc;}
+input [name="nimi"] {
+  width: 120px;
+    margin-left: 5px;
+    color: #fefefe;
+}
+input[type="submit"] {
+  width: 120px;
+  margin-left: 5px;
+  display: block;
+}  
+
+
+</style>
+
+</head>
+
+<body>
+<h1><b>Ensimmäinen Nettisivuni</b></h1>
+<h2><b>Mikä tämä on?</b></h2>
+
+<p>Yksinkertainen sivu, joka on tehty HTML:n avulla. <em> Sanoin yksinkertainen sivu, joka on tehty HTML: n avulla.</em> Yksinkertainen sivu, joka on tehty <strong>HTML:n</strong> avulla. 
+Yksinkertainen sivu, joka on tehty HTML:n avulla. Yksinkertainen sivu, joka on tehty HTML:n avulla</p>
+<p>. Yksinkertainen sivu, joka on tehty HTML:n avulla. <u>Yksinkertainen</u> sivu, joka on tehty HTML:n avulla. Yksinkertainen sivu, joka on tehty HTML:n avulla.</p>
+
+<div  class="w3-border-top w3-border-bottom w3-light-white">
+<p>Yksinkertainen sivu, joka on tehty HTML:n avulla.</p>
 </div>
 
-<h5><b>Miksi tämä sivu on tehty</b></h5>
+<h2><b>Miksi tämä sivu on tehty</b></h2>
 <ul>
-    <li>HTML-kielen opetteluun</li>
-    <li>Näyttääkseni omaa osaamistani</li>
-    <ol>
-        <li>Opettajilleni</li>
-        <li>Ystävilleni</li>
-        <li>Työpaikkani pomolle</li>
-        <li>Aivojeni pienelle puhuvalle ankalle</li>
-      </ol> 
-    <li>Koska olen menettänyt sydämmeni tietokoneelleni ja haluan opettaa hänelle HTML-kielen selailun.</li>
-  </ul> 
+<li>HTML-kielen opetteluun</li>
+<li>Näyttääkseni omaa osaamistani</li>
+<ol>
+  <li>Opettajilleni</li>
+  <li>Ystävilleni</li>
+  <li>Työpaikkani pomolle</li>
+  <li>Aivojeni pienelle puhuvalle ankalle</li>
+</ol> 
+<li>Koska olen menettänyt sydämmeni tietokoneelleni ja haluan opettaa hänelle HTML-kielen selailun.</li>
+</ul> 
 
-  <h5><b>Mistä löydän HTML-tutoriaalin?</b></h5>
+<h2><b>Mistä löydän HTML-tutoriaalin?</b></h2>
 
-  <a href="https://pixabay.com/fi/illustrations/html5-kuvake-grafiikka-2d-kilpi-1841458/"> <img src="html5-1841458_1280.webp" alt="HTML kuva" style="width:120px;height:90px;"></a>
+<a href="https://pixabay.com/fi/illustrations/html5-kuvake-grafiikka-2d-kilpi-1841458/"> <img src="html5-1841458_1280.webp" alt="HTML kuva" style="width:120px;height:90px;"></a>
 
-  <h6><b>Muutama satunnainen tauluko</b></h6>
+<h3><b>Muutama satunnainen tauluko</b></h3>
 
-  <table style="width:26%">
+<table style="width:26%">
    
-    <tr>
-      <td>Rivi 1,</td>
-      <td>Solu 1</td>
-      <td>Rivi 1,</td>
-      <td>Solu 2</td>
-      <td>Rivi 1,</td>
-      <td>Solu 3</td>
-    </tr>
-    <tr>
-        <td>Rivi 2,</td>
-        <td>Solu 1</td>
-        <td>Rivi 2,</td>
-        <td>Solu 2</td>
-        <td>Rivi 2,</td>
-        <td>Solu 3</td>
-    </tr>
-    <tr>
-      <td>Rivi 3,</td>
-      <td>Solu 1</td>
-      <td>Rivi 3,</td>
-      <td>Solu 2</td>
-      <td>Rivi 3,</td>
-      <td>Solu 3</td>
-    </tr>
-    <tr>
-        <td>Rivi 4,</td>
-        <td>Solu 1</td>
-        <td>Rivi 4,</td>
-        <td>Solu 2</td>
-        <td>Rivi 4,</td>
-        <td>Solu 3</td>
-      </tr>
-  </table>
+<tr>
+ <td>Rivi 1,</td>
+ <td>Solu 1</td>
+ <td>Rivi 1,</td>
+ <td>Solu 2</td>
+ <td>Rivi 1,</td>
+ <td>Solu 3</td>
+</tr>
+<tr>
+  <td>Rivi 2,</td>
+  <td>Solu 1</td>
+  <td>Rivi 2,</td>
+  <td>Solu 2</td>
+  <td>Rivi 2,</td>
+  <td>Solu 3</td>
+</tr>
+<tr>
+  <td>Rivi 3,</td>
+  <td>Solu 1</td>
+  <td>Rivi 3,</td>
+  <td>Solu 2</td>
+  <td>Rivi 3,</td>
+  <td>Solu 3</td>
+</tr>
+<tr>
+  <td>Rivi 4,</td>
+  <td>Solu 1</td>
+  <td>Rivi 4,</td>
+  <td>Solu 2</td>
+  <td>Rivi 4,</td>
+  <td>Solu 3</td>
+</tr>
+</table>
 
-  <h6><b>Mallilomake</b></h6>
-  <p><b>Huomio:</b> Nettilomake näyttää toimivalta, mutta toimiiko se?</p>
-<p>Nimi:</p>
-<from action="lomakkeenkasittely.php" method="post">
-    <input name="fname" type="text" value="Sinun nimesi"><br>
-</from>
-<p>Kommentit:</p>
+<h3><b>Mallilomake</b></h3>
+<p><b>Huomio:</b> Nettilomake näyttää toimivalta, mutta toimiiko se?</p>
 
-    <form action="/action_page.php">
-        <textarea name="message" rows="10" cols="20" >Sinun kommentit</textarea>
-        <br><br>
+<form action="lomakkeenkasittely.php" method="post"><p>Nimi:</p>
+<input name="nimi" type="text" value="Sinun nimesi"><br>
 
-</from>
+<form action="lomakkeenkasittely.php"><p>Kommentit:</p>
+
+<textarea type="text" name="message" rows="10" cols="20" value="Sinun kommentit"> </textarea>
+<br><br>
+
+
 
 
 <form action="lomakkeenkasittely.php" method="post">
-    <p>Olen:</p>
-    <input type="radio" name="gender" value="male"> Mies<br>
-    <input type="radio" name="gender" value="female"> Nainen<br>
-    <input type="radio" name="gender" value="other"> Avaruusolio<br>
-    <input type="radio" name="gender" value="other1" checked> Sukupuoleton<br><br>
-    <br><input type="submit" value="Lähetä">
+<p>Olen:</p>
+<input type="radio" name="gender" value="male"> Mies<br>
+<input type="radio" name="gender" value="female"> Nainen<br>
+<input type="radio" name="gender" value="other"> Avaruusolio<br>
+<input type="radio" name="gender" value="other1" checked> Sukupuoleton<br><br>
+<br><input type="submit" value="Lähetä">
+</form>
+</form>
 </form>
 
-<p class="double" ><b>Svetlana Ganko</b>  sveta.pongo87@gmail.com </p>
-    </body>
-    </html>
+
+<p class="minunnimi"><b>Svetlana Ganko</b>  sveta.pongo87@gmail.com </p>
+</body>
+</html>
