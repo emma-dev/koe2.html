@@ -1,5 +1,6 @@
 <html><head>
 <meta charset = "UTF-8">
+ <link rel="stylesheet" href="https://outlook.office365.com/mail/inbox/id/AAQkADA0YjQ1YjE5LWVmM2ItNGI0Mi05MTAyLWU3MmY4MDlmOGQzZQAQAKv46aKEWUaPtDcN072S96E%3D">
 <title>Kiitos viestistäsi</title>
 
 </head>
